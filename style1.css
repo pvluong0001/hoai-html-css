@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url("../img/scenic-2200x1331.png");
+}
+.container {
+    background-color: white;
+    min-height: 100vh;
+    width: 60%;
+    margin: 0 0 0 auto;
+    text-align: none;
+    position: relative;
+    display: flex;
+    
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0px auto;
+  }
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button1 {
+    border: none;
+    background-color: #66BB6A;
+    width: 450px;
+  }
+  .button2 {
+    background-color: white;
+    color: green;
+    border: solid 1px rgb(158, 224, 158);
+    width: 450px;
+  }
+  .container p, a, label {
+    line-height: 70px;
+  }
+
+  .from__email {
+    width: 450px;
+    height: 50px;
+    border: solid 1px rgb(128, 125, 125);
+    padding: 0 12px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form__password {
+    width: 450px;
+    height: 50px;
+    border: solid 1px rgb(128, 125, 125);
+    padding: 0 12px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+  }
+ .p {
+    font-size: 13px;
+    color: red;
+ }
+ .login {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 32px ;
+ }
+ .mk {
+    align-items: flex-end;
+    justify-content: flex-end;
+ }
+ 
