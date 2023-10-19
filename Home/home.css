@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.container-header {
+  display: flex;
+  padding: 0 36px;
+  justify-content: space-between;
+}
+
+.left {
+  gap: 0 16px;
+  display: flex;
+  text-align: center;
+}
+
+.img {
+  width: 42px;
+  height: 50px;
+}
+
+.container-header-text {
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.right {
+  display: flex;
+  gap: 0 24px;
+  padding: 10px;
+}
+
+.container-header-button {
+  padding: 0 22px;
+  border-radius: 8px 8px 8px 0;
+  color: #303f9f;
+  background-color: white;
+}
+
+.box {
+  display: flex;
+}
+
+.box1 {
+  display: flex;
+  padding: 0 16px;
+  gap: 16px;
+  width: 455px;
+}
+
+.box2 {
+  display: flex;
+  padding: 0 16px;
+  gap: 16px;
+}
+
+.icon {
+  height: 51px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.number {
+  font-size: 20px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.chart {
+  padding: 0 36px;
+}
+
+.chart-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 16px;
+}
+
+.chart-box-text {
+  font-size: 20px;
+}
+
+.chart-box-img {
+  background-position: center;
+  background-repeat: no-repeat;
+}
