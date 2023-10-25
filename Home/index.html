@@ -13,73 +13,206 @@
     <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="container-header">
-          <div class="left">
-            <img src="./logo.png" alt="logo" class="img" />
-            <p class="container-header-text">
-              CỔNG THÔNG TIN TIÊM CHỦNG COVID-19
-            </p>
-          </div>
-          <div class="right">
-            <p>Trang chủ</p>
-            <p>Đăng ký tiêm</p>
-            <p>Tra cứu</p>
-            <p>Tài liệu</p>
-            <button class="container-header-button">Đăng nhập</button>
-          </div>
+    <header>
+      <div class="container_header">
+        <div class="brand">
+          <img src="./logo.png" alt="logo" class="img" />
+          <h6>CỔNG THÔNG TIN TIÊM CHỦNG COVID-19</h6>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>Trang chủ</li>
+            <li>Đăng ký tiêm</li>
+            <li>Tra cứu</li>
+            <li>Tài liệu</li>
+          </ul>
+          <button class="button_login">Đăng nhập</button>
         </div>
       </div>
-      <div class="box">
-        <div class="box1">
-          <div class="icon">
+      <div class="heading">
+        <div class="frame">
+          <div class="img_frame">
             <img
               src="./366000049_1333811997207830_8032655214140181219_n.png"
               alt=""
             />
           </div>
-          <div class="text">
+          <div class="content">
             <p>Đối tượng đăng ký tiêm</p>
-            <p class="number">11,203,873 <span>(lượt)</span></p>
+            <p>11,203,873 (lượt)</p>
           </div>
         </div>
-        <div class="box2">
-          <div class="icon">
+        <div class="frame">
+          <div class="img_frame">
             <img
               src="./logo5395_831946555238805_3628471649870084215_n.png"
               alt=""
             />
           </div>
-          <div class="text">
+          <div class="content">
             <p>Số mũi tiêm hôm qua</p>
-            <p class="number">1,762,119 <span>(mũi) </span></p>
+            <p>1,762,119 (mũi)p></p>
           </div>
         </div>
-    </div>
-        <div class="chart">
-            <div class="chart-box">
-                <p class="chart-box-text">Dữ liệu tiêm theo ngày</p>
-                <img src="./366736920_6507052366049431_2350719755991945260_n.png" alt="" class="chart-box-img">
-            </div>
+      </div>
+      <div class="chart">
+        <div class="container_chart">
+          <p>Dữ liệu tiêm theo ngày</p>
+          <div class="img_chart">
+            <img
+              src="./366736920_6507052366049431_2350719755991945260_n.png"
+              alt=""
+              class="img_ch"
+            />
         </div>
-        <div class="form-container">
-            
+      </div>
+      <div class="container_main">
+        <div class="search_container_main">
+          <input type="text" placeholder="Tỉnh/Thành phố"/>
+          <input type="text" placeholder="Quận/Huyện"/>
+          <input type="text" placeholder="Xã/Phường"/>
+          <button class="search">Tìm kiếm</button>
         </div>
-        <div class="body_container">
-          <div class="body_container_box">
-            <div class="body_container_box_title">
-              <p class="box_title">Tra cứu điểm tiêm theo địa bàn</p>
-            </div>
-            <div class="body_container_box_header_row">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <button>Tìm kiếm</button>
-            </div>
-            <div class="body_container_box_header"></div>
+        <div class="header_container_main">
+          <div class="title">
+            <h3>Tra cứu điểm tiêm theo địa bàn</h3>
+          </div>
+          <table>
+            <tr>
+              <th>STT</th>
+              <th>Tên điểm tiêm</th>
+              <th>Số nhà, tên đường</th>
+              <th>Xã/Phường</th>
+              <th>Quận/Huyện</th>
+              <th>Tỉnh/Thành phố</th>
+              <th>Người đứng đầu cơ sở tiêm chủng	</th>
+              <th>Số bàn tiêm</th>
+            </tr>
+            <tr class="row_gray">
+              <td>1</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr class="row_gray">
+              <td>3</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr class="row_gray">
+              <td>5</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr class="row_gray">
+              <td>7</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+            <tr class="row_gray">
+              <td>9</td>
+              <td>Bệnh viện Đa khoa Medlatec</td>
+              <td>42-44 Nghĩa Dũng</td>
+              <td>Phúc Xá</td>
+              <td>Quận Ba Đình</td>
+              <td>Thành phố Hà Nội</td>
+              <td>Nguyễn Thị Kim Liên</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="left">
+          <p>
+            © Bản quyền thuộc TRUNG TÂM CÔNG NGHỆ PHÒNG, CHỐNG DỊCH COVID-19
+            QUỐC GIA
+          </p>
+          <p>Phát triển bởi <span>Viettel</span></p>
+          <div class="container_footer_left">
+            <img src="./logo2bo 1.png" alt="" height="89" width="195" />
           </div>
         </div>
-        <div>6</div>
+        <div class="right">
+          <p>
+            Tải sổ sức khỏe điện tử để đăng ký tiêm và nhận giấy chứng nhận tiêm
+          </p>
+          <div class="container_footer_right">
+            <button>App tiêm di động (Cho HCM)</button>
+            <button>App Store</button>
+            <button>Google play</button>
+          </div>
+          <div class="box_img">
+            <div></div>
+            <img
+              src="./handle_cert 1.png"
+              alt=""
+              height="100px"
+              width="220px"
+              class="img_right"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
