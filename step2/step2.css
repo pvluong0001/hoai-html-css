@@ -147,7 +147,8 @@ button {
   text-align: center;
   justify-content: center;
   padding: 50px 36px;
-  gap: 250px;
+  gap: 10px;
+  align-items: center;
 }
 /*
 soild {
@@ -174,4 +175,9 @@ soild {
 .result_footer {
   display: flex;
   gap: 10px;
+}
+
+.serach .line {
+  width: 200px;
+  border-top: 1px solid #d2d2d2;
 }
